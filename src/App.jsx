@@ -13,7 +13,7 @@ function App() {
 const getToken = async () => {
 
   const response = await fetch(
-    'http://127.0.0.1:8000/token',
+    'https://loan-prediction-api-pdr2.onrender.com/token',
     {
 
       method: 'GET',
@@ -63,7 +63,7 @@ const handleSubmit = async (e) => {
     // call predict route
 
     const response = await fetch(
-      'http://127.0.0.1:8000/predict',
+      'https://loan-prediction-api-pdr2.onrender.com/predict',
       {
 
         method: 'POST',
