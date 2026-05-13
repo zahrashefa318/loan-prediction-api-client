@@ -114,7 +114,7 @@ npm run dev
 Application available at:
 
 ```bash
-http://localhost:5173
+https://loan-prediction-api-client.onrender.com/
 ```
 
 ---
